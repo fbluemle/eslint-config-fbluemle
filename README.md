@@ -1,0 +1,28 @@
+# eslint-config-fbluemle
+
+## Description
+
+A simplified ESLint config based on [@react-native-community][1]. These are just
+the **core ESLint rules**, with all dependencies on other configs/plugins removed.
+
+## Installation
+
+```sh
+yarn add --dev eslint @fbluemle/eslint-config
+```
+
+## Usage
+
+Add to your ESLint config (`.eslintrc[.js]`, or `eslintConfig` field in `package.json`):
+
+```js
+module.exports = {
+  extends: '@fbluemle',
+};
+```
+
+## License
+
+MIT
+
+[1]: https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community
