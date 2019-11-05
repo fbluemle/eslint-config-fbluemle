@@ -1,6 +1,16 @@
 {
   "name": "@fbluemle/eslint-config",
   "version": "0.1.0",
+  "license": "MIT",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  }
 }
