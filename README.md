@@ -1,16 +1,24 @@
 # eslint-config-fbluemle
 
 [![ci][1]][2]
+[![npm version][4]][5]
 
 ## Description
 
-A simplified ESLint config based on [@react-native-community][3]. These are just
-the **core ESLint rules**, with all dependencies on other configs/plugins removed.
+A simple, general purpose, zero-dependency ESLint config with rules based on
+[eslint-config-react-native-community][3]. These are just the **core ESLint
+rules**, with all dependencies on other configs/plugins removed.
 
 ## Installation
 
 ```sh
-yarn add --dev eslint @fbluemle/eslint-config
+npm i -D eslint @fbluemle/eslint-config
+```
+
+or
+
+```sh
+yarn add -D eslint @fbluemle/eslint-config
 ```
 
 ## Usage
@@ -23,6 +31,10 @@ module.exports = {
 };
 ```
 
+This base config only defines the `es6` env. Depending on your project, you
+probably want to [specify other environments][6] (e.g. `browser` or `node`) in
+addition.
+
 ## License
 
 MIT
@@ -30,3 +42,6 @@ MIT
 [1]: https://github.com/fbluemle/eslint-config-fbluemle/workflows/ci/badge.svg
 [2]: https://github.com/fbluemle/eslint-config-fbluemle/actions
 [3]: https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community
+[4]: https://img.shields.io/npm/v/@fbluemle/eslint-config.svg
+[5]: https://www.npmjs.com/package/@fbluemle/eslint-config
+[6]: https://eslint.org/docs/user-guide/configuring#specifying-environments

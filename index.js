@@ -1,20 +1,15 @@
 module.exports = {
   env: {
-    browser: true,
     es6: true,
-    node: true,
   },
-
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
   },
-
   rules: {
     // General
     'comma-dangle': [1, 'always-multiline'], // allow or disallow trailing commas
     'no-cond-assign': 1, // disallow assignment in conditional expressions
-    'no-console': 2, // disallow use of console (off by default in the node environment)
+    'no-console': 0, // disallow use of console (off by default in the node environment)
     'no-const-assign': 2, // disallow assignment to const-declared variables
     'no-constant-condition': 0, // disallow use of constant expressions in conditions
     'no-control-regex': 1, // disallow control characters in regular expressions
