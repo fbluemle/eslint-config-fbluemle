@@ -17,7 +17,7 @@
     "eslintconfig",
     "javascript"
   ],
-  "author": "Frieder Bluemle <frieder.bluemle@gmail.com> (http://www.friederbluemle.com/)",
+  "author": "Frieder Bluemle <frieder.bluemle@gmail.com> (https://www.fbluemle.org/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fbluemle/eslint-config-fbluemle/issues"

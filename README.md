@@ -2,6 +2,7 @@
 
 [![ci][1]][2]
 [![npm version][4]][5]
+[![Dependency Status][7]][8]
 
 ## Description
 
@@ -45,3 +46,5 @@ MIT
 [4]: https://img.shields.io/npm/v/@fbluemle/eslint-config.svg
 [5]: https://www.npmjs.com/package/@fbluemle/eslint-config
 [6]: https://eslint.org/docs/user-guide/configuring#specifying-environments
+[7]: https://david-dm.org/fbluemle/eslint-config-fbluemle.svg
+[8]: https://david-dm.org/fbluemle/eslint-config-fbluemle
