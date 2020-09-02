@@ -11,6 +11,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           scope: '@fbluemle'
-      - run: npm publish --verbose --access public
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
