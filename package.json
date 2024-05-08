@@ -1,6 +1,6 @@
 {
   "name": "@fbluemle/eslint-config",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "A simple, general purpose, zero-dependency ESLint config",
   "main": "index.js",
   "files": [],
